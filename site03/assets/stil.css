@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+* {
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.header , .orta , footer {
+    width: 1000px;
+}
+
+.container {
+    background: url(./images/bg.jpg) center 0 no-repeat ;
+    height: 1700px;
+    font-size: 14px;
+   
+}
+
+.header {
+    background: url(./images/header.jpg) no-repeat top right ;
+    height: 760px;
+}
+
+.logo img {
+    margin-top: 27px;
+    margin-left: 63px;
+}
+
+header nav {
+    background: url(./images/slider-bg.png) no-repeat;
+    height: 560px;
+    margin-top: 15px;
+}
+
+.swiper {
+    overflow: hidden;
+    width: 920px;
+    height: 429px; 
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    margin-top: 45px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    
+  }
+
+ .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    width: fit-content;
+    margin: 25px 0px 0 53px;
+    padding-inline-start: 40px;
+  }
+
+  header nav ul li {
+    float: left;
+    line-height: 50px;
+
+   margin-right: 35px;  
+  }
+
+  header nav ul li a, h2, .news a {
+    text-decoration: none;
+    font-family: 'Cabin Sketch', cursive ;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -2px;
+
+  }
+
+  .color1 , header nav ul li a:hover , .ourGaleri h2{
+    color: black;
+  }
+
+.color2 {
+    color: green;
+}
+
+.color3 {
+    color: #bfaf00;
+}
+.color4, .news a , .son:hover{
+    color: red;
+}
+.color5 {
+    color: purple;
+  }
+
+.orta {
+    margin-top: 15px;
+    position: relative;
+    height: 430px; 
+  }
+
+  .orta .bolum {
+    float: left;
+    display: block;
+    appearance: inherit;
+  }
+
+.orta section {
+    width: 300px;
+    position: relative;
+    float: left;
+    background-attachment: scroll;
+    padding: 10px;
+   }
+
+   h3 {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+   }
+
+   .orta section p{
+    font-family: 'Times New Roman', Times, serif ;
+    color: gray;
+    font-weight: 400;
+    line-height: 22px;
+   }
+
+   .news a{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 700;
+   }
+
+   .news a:hover {
+    color: #fff;
+   }
+
+   .hands img {
+    position: absolute;
+    left: 0;
+   }
+
+
+  .orta aside {
+    width: 650px;
+    position: absolute;
+    float: left;
+    right: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .orta aside div:first-child{
+    padding-left: 40px;
+  }
+
+.orta  aside p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 12px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.orta aside .ourGaleri {
+  background: url(./images/block-1-shadow.png) 0 bottom repeat-x #fff;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 18px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  height: 600px;
+}
+
+.ourGaleri div {
+  position: relative;
+  height: min-content;
+}
+
+.ourGaleri div p {
+  position: absolute;
+  top: 0;
+  color: black;
+  margin-top: 210px;
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+
+}
+
+.ourGaleri div:nth-child(3) p{
+  margin-left:  320px;
+}
+
+.ourGaleri div:nth-child(4) p{
+  margin-top: 430px;
+}
+
+.ourGaleri div:nth-child(5) p{
+  margin-left:  320px;
+  margin-top: 430px;
+}
+
+.orta aside .ourGaleri img{
+  float:left;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+.ourGaleri img:nth-child(odd){
+  margin-right: 20px;
+}
+
+
+.bolum a h2{
+  color: turquoise;
+  text-align: center;
+  width:max-content;
+  height: 25px;
+  margin-top: 490px;
+}
+
+
+
+
+  .footer {
+    background-color: black;
+    height: 800px;
+  }
+
+  .footer footer {
+    color: gray;
+    overflow: hidden;
+  }
+
+  .footer footer P {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 400px;
+    margin-left: 350px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .red span:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/stil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <div class="galeri">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img src="./assets/images/slider-1.jpg" alt=""></div>
+                              <div class="swiper-slide"><img src="./assets/images/slider-2.jpg" alt=""></div>
+                              <div class="swiper-slide"><img src="./assets/images/slider-3.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                        
+
+                    </div>
+                    <ul>
+                        <li><a class="color1" href="#">HOME</a></li>
+                        <li><a class="color2" href="#">ABOUT</a></li>
+                        <li><a class="color3" href="#">SCHEDULE</a></li>
+                        <li><a class="color4" href="#">GALLERY</a></li>
+                        <li><a class="color5" href="#">CONTACTS</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="orta">
+            <section class="bolum">
+                <div class="art">
+                    <img src="./assets/images/art.png" alt="">
+                </div>
+                <div>
+                    <h2>Events</h2>
+                    <h3>April 18 - “Spring’s Bloom”</h3>
+                    <p>
+                          <br>
+
+                        The PSD source files of this Art School Template are available for free for the registered members of TemplateMonster.com. Feel free to get them!
+                    </p> <br><br>
+                    <h3>April 01 - “Smile!”</h3>
+                    <p>
+                         <br>
+
+                        This website template has several pages: Home Page, About Us, Schedule, Gallery, Contact Us (note that contact us form doesn’t work).
+                    </p>
+        
+
+                </div>
+                <div class="news">
+                    <a href="#">News Archive</a>
+                </div>
+                <div class="hands">
+                    <img src="./assets/images/content-img.png" alt="hands">
+                </div>
+            </section>
+            <aside class="bolum">
+                <div>
+                    <h2>Welcome to Art School</h2>
+                    <p>
+                        Art School is one of free website templates by TemplateMonster.com team. This template is optimized for 1280X1024 screen resolution. It is also XHTML & CSS valid. 
+                    </p>
+                </div>
+                <div class="ourGaleri">    
+                    <h2>Our Gallery</h2>
+                    <div>
+                        <a href="#"><img src="./assets/images/gallery-1.jpg" alt=""></a>
+                        <p>Jennifer, 10 years</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="./assets/images/gallery-2.jpg" alt=""></a>
+                        <p>Martin, 13 years</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="./assets/images/gallery-3.jpg" alt=""></a>
+                        <p>Sebastian, 14 years</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="./assets/images/gallery-4.jpg" alt=""></a>
+                        <p>Fiona, 8 years</p>
+                    </div>
+                    
+                    <a href="#"><h2 class="son">Full Gallery</h2></a>
+                    
+                </div>
+            </aside>
+        </div>
+        <div class="footer">
+            <footer>
+                <p>© 2012 Art School <br>
+                    <a href="#" style="text-decoration: none;" ><span style="color:blue">Website Templates</span></a> by <a class="red" href="#" style="text-decoration: none;"><span style="color:red">TemplateMonster.com</span></a>
+                </p>
+                
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+</body>
+</html>
