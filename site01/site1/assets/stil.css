@@ -1,0 +1,275 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container .header {
+    height: 172px;
+    width: 100%;
+    background-color: black;
+}
+
+header , .govde1 section , .govde2 section, footer{
+    width: 960px;
+}
+
+header .ust {
+    float: left;
+
+}
+
+.logo img {
+    margin-top: 46px;
+    margin-left: 42px;
+    float: left;
+}
+
+.logo p {
+    color: #8f8b8c;
+    float: left;
+    margin-top: 34px;
+    margin-left: 28px;
+    padding-top: 18px;
+    padding-left: 29px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    text-align: start;
+    border-left: 1px solid gray;
+    line-height: 22px;
+}
+
+.logo , .armalar {
+    float: left;
+
+}
+
+.armalar div {
+    float: left;
+    align-content: end;
+    margin-left: 5px;
+    margin-top: 55px;
+}
+
+.armalar div:first-child {
+    margin-left: 375px;
+}
+ .alt ul {
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    background-image: url(../images/nav.jpg);
+    border-radius: 8px;
+    margin-top: 50px;
+    padding-inline-start: 0;
+ }
+
+ .alt ul li {
+    list-style-type: none;
+    padding-inline-start: 0;
+    width: 16%;
+    float: left;
+    margin-top: 15px;
+    /* padding-top: px; */
+    text-align: center;
+
+ }
+
+ .alt ul li:nth-child(n+2){
+    border-left: 1px solid orangered;
+ }
+
+ .alt ul li a {
+    color: #0f0c0c;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 40px;
+ }
+
+ #active , .alt ul li a:hover {
+    color: #8f8b8c;
+ }
+
+ /* Orta bölüm 1 */
+
+ .govde1 {
+    width: 100%;
+    height: 430px;
+    background-image: url(../images/header-content.jpg);
+ }
+
+ .govde1 section {
+    padding-top: 70px;
+
+ }
+
+ .govde1 section div {
+    float: left;
+    width: 33%;
+ }
+
+ .govde1 section div:nth-child(n+2) p{
+    border-left: 1px #444 solid;
+ }
+
+ .govde1 section div img {
+    margin-left: 20px;
+    border-radius: 7px;
+
+ }
+
+ .govde1 section div h3 {
+    color: #e37700;
+    text-align: center;
+    margin-top: 15px;
+ }
+
+ .govde1 section div p {
+    text-align: center;
+    color: #8f8b8c;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 24px;
+ }
+
+ .govde1 section div button {
+    background-color: rgba(0,0,0,40%); 
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    margin-left: 100px
+
+}
+
+.govde1 section div button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Orta bölüm 2 */
+
+.govde2 {
+    width: 100%;
+    height: 460px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #eee;
+}
+
+
+
+.govde2 section div ul {
+    padding-inline-start: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.govde2 section div ul li{
+    color: #8f8b8c;
+    font-size: 14px;
+    line-height: 25px;
+    list-style-image: url(../images/list-1.gif);
+    padding-top: 5px;
+}
+
+.govde2 section div button {
+    background-color: #ddd;
+    color: #8f8b8c;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.govde2 section div button:hover {
+    background-color: #8b8c8d;
+    color: #fff;
+}
+
+
+.govde2 .left {
+    float: left;
+    width: 60%;
+    color: #8f8b8c;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+.govde2 .left div {
+    float: left;
+    width: 50%;
+}
+
+h2 {
+    font-size: 2em !important;
+    font-weight: lighter !important;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.govde2 section .right {
+    border-left: 1px solid #8b8c8d;
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.govde2 section .right li{
+    list-style-image: url(../images/link-2.png);
+}
+
+.govde2 section div a {
+    color: #e37700;
+    text-decoration: none;
+   
+}
+
+.govde2 section div a:hover {
+    text-decoration: underline;
+}
+
+.govde2 section .right button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.govde2 section .left button {
+    margin-top: 30px;
+}
+
+/*  Footer Bölümü */
+
+.footer {
+    width: 100%;
+    height: 260px;
+    background-image:url(../images/bg.jpg) ;
+}
+
+.footer footer {
+    padding-top: 40px;
+}
+
+.footer p {
+    color: #8b8c8d;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}
+.footer a {
+    color: #e37700;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}
+
+.footer p a:nth-child(2):hover{
+    text-decoration: none;
+}
